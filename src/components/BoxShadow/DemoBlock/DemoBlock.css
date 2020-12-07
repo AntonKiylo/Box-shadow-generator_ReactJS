@@ -1,5 +1,16 @@
 .demo-block {
-  width: 300px;
-  height: 300px;
+  width: 370px;
+  height: 370px;
+  padding: 10px;
   background-color: #c2deff;
+}
+
+.box-shadow-css {
+  font-size: 12px;
+  padding: 2px 0;
+  background-color: #ffffff;
+}
+
+.box-shadow-css p {
+  margin: 8px 6px;
 }
