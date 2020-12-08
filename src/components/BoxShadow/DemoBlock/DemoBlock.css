@@ -1,16 +1,79 @@
 .demo-block {
-  width: 370px;
-  height: 370px;
+  width: 400px;
+  height: 400px;
   padding: 10px;
-  background-color: #c2deff;
+  margin: 0 auto;
 }
 
 .box-shadow-css {
   font-size: 12px;
   padding: 2px 0;
   background-color: #ffffff;
+  margin-top: 40px;
 }
 
 .box-shadow-css p {
   margin: 8px 6px;
+}
+
+.copyButtonBlock {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.isCopiedAlert {
+  opacity: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  left: 93%;
+  transform: translate(-50%, -50%);
+  bottom: 12px;
+  width: 90px;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  z-index: 1;
+  transition: opacity 0.3s;
+}
+
+.isCopiedAlert:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color:rgba(0, 0, 0, 0.6) transparent transparent transparent;
+}
+
+.active {
+  opacity: 1;
+}
+
+.copyButton {
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #0075ff 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:3px;
+	border:1px solid #2dabf9;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:4px 8px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #263666;
+  outline: none;
+}
+.copyButton:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+.copyButton:active {
+	position:relative;
+	top:1px;
 }

@@ -2,7 +2,7 @@ const Color = ({ shadowRange, onHandlerChange }) => {
   return (
     <div>
       <label htmlFor='color'>
-        <h3>Color:</h3>
+        <h3>Shadow color:</h3>
       </label>
       <input
         type='color'

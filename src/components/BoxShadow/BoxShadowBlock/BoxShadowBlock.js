@@ -7,6 +7,7 @@ import DemoBlock from '../DemoBlock/DemoBlock'
 import Spread from '../Spread/Spread'
 import Color from '../Color/Color'
 import Opacity from '../Opacity/Opacity'
+import BackgroundColor from '../BackgroundColor/BackgroundColor'
 
 const BoxShadowBlock = () => {
   const [shadowRange, setShadowRange] = useState({
@@ -15,6 +16,7 @@ const BoxShadowBlock = () => {
     blur: 15,
     spread: 0,
     color: '#000000',
+    backgroundColor: '#c2deff',
     opacity: 0.7
   })
 
@@ -31,6 +33,7 @@ const BoxShadowBlock = () => {
         <Spread shadowRange={shadowRange} onHandlerChange={onHandlerChange} />
         <Color shadowRange={shadowRange} onHandlerChange={onHandlerChange} />
         <Opacity shadowRange={shadowRange} onHandlerChange={onHandlerChange} />
+        <BackgroundColor shadowRange={shadowRange} onHandlerChange={onHandlerChange} />
       </div>
       <DemoBlock shadowRange={shadowRange} />
     </div>
