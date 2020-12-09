@@ -3,14 +3,24 @@
   grid-template-columns: 250px 1fr;
 }
 
-.box-shadow-block div:first-child {
+.box-shadow-range {
   padding-left: 20px;
 }
 
-.box-shadow-block div:first-child div {
+.box-shadow-range div {
   margin: 10px 0;
 }
 
-.box-shadow-block input {
+.box-shadow-range div:nth-child(6), .box-shadow-range div:nth-child(7) {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-shadow-range input[type=range] {
   width: 100%;
+  margin-top: 8px;
+}
+
+.box-shadow-range input[type=color] {
+  width: 60px;
 }

@@ -26,13 +26,13 @@ const BoxShadowBlock = () => {
 
   return (
     <div className='box-shadow-block'>
-      <div>
+      <div className='box-shadow-range'>
         <HorizontalShift shadowRange={shadowRange} onHandlerChange={onHandlerChange} />
         <VerticalShift shadowRange={shadowRange} onHandlerChange={onHandlerChange} />
         <Blur shadowRange={shadowRange} onHandlerChange={onHandlerChange} />
         <Spread shadowRange={shadowRange} onHandlerChange={onHandlerChange} />
-        <Color shadowRange={shadowRange} onHandlerChange={onHandlerChange} />
         <Opacity shadowRange={shadowRange} onHandlerChange={onHandlerChange} />
+        <Color shadowRange={shadowRange} onHandlerChange={onHandlerChange} />
         <BackgroundColor shadowRange={shadowRange} onHandlerChange={onHandlerChange} />
       </div>
       <DemoBlock shadowRange={shadowRange} />
