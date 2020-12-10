@@ -1,8 +1,8 @@
 import { Route, Switch } from 'react-router-dom'
 import './App.css'
-import BoxShadowBlock from './components/BoxShadow/BoxShadowBlock/BoxShadowBlock'
 import Nav from './components/Nav/Nav'
-import Border from './components/Border/Border'
+import BoxShadowBlock from './components/BoxShadow/BoxShadowBlock/BoxShadowBlock'
+import BorderBlock from './components/Border/BorderBlock/BorderBlock'
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
           <BoxShadowBlock />
         </Route>
         <Route path='/border'>
-          <Border />
+          <BorderBlock />
         </Route>
       </Switch>
     </>
