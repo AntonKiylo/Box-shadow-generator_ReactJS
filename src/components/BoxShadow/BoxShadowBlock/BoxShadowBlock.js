@@ -8,6 +8,7 @@ import Spread from '../Spread/Spread'
 import Color from '../Color/Color'
 import Opacity from '../Opacity/Opacity'
 import BackgroundColor from '../BackgroundColor/BackgroundColor'
+import Inset from '../Inset/Inset'
 
 const BoxShadowBlock = () => {
   const [shadowRange, setShadowRange] = useState({
@@ -17,8 +18,11 @@ const BoxShadowBlock = () => {
     spread: 0,
     color: '#000000',
     backgroundColor: '#c2deff',
-    opacity: 0.7
+    opacity: 0.7,
+    inset: 'inset'
   })
+
+  const [inset, setInset] = useState(false)
 
   const onHandlerChange = e => {
     setShadowRange({ ...shadowRange, [e.target.name]: e.target.value })
@@ -34,8 +38,9 @@ const BoxShadowBlock = () => {
         <Opacity shadowRange={shadowRange} onHandlerChange={onHandlerChange} />
         <Color shadowRange={shadowRange} onHandlerChange={onHandlerChange} />
         <BackgroundColor shadowRange={shadowRange} onHandlerChange={onHandlerChange} />
+        <Inset setInset={setInset} inset={inset} />
       </div>
-      <DemoBlock shadowRange={shadowRange} />
+      <DemoBlock shadowRange={shadowRange} inset={inset} />
     </div>
     
   )

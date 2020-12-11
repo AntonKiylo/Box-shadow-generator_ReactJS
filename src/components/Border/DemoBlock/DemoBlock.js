@@ -42,7 +42,7 @@ const DemoBlock = ({ borderRange, isRadiusChecked }) => {
   return (
     <div>
       <div
-        className='demo-block'
+        className='border-demo-block'
         style={isRadiusChecked ? commonRadius : individualRadius}
       ></div>
 

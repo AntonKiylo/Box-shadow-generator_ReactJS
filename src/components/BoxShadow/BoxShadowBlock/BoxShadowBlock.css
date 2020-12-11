@@ -11,9 +11,14 @@
   margin: 10px 0;
 }
 
-.box-shadow-range div:nth-child(6), .box-shadow-range div:nth-child(7) {
+.box-shadow-range div:nth-child(6), .box-shadow-range div:nth-child(7), .box-shadow-range div:nth-child(8) {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.box-shadow-range input {
+  cursor: pointer;
 }
 
 .box-shadow-range input[type=range] {
