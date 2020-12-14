@@ -1,8 +1,11 @@
+import './VerticalShift.css'
+
 const VerticalShift = ({ shadowRange, onHandlerChange }) => {
   return (
     <div>
       <label htmlFor='verticalShift'>
         <h3>Vertical shift:</h3>
+        <p>{`${shadowRange.verticalShift}px`}</p>
       </label>
       <input
         type='range'

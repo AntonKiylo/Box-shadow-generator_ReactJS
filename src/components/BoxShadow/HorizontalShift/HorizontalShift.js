@@ -1,8 +1,11 @@
+import './HorizontalShift.css'
+
 const HorizontalShift = ({ shadowRange, onHandlerChange }) => {
   return (
     <div>
       <label htmlFor='horizontalShift'>
         <h3>Horizontal shift:</h3>
+        <p>{`${shadowRange.horizontalShift}px`}</p>
       </label>
       <input
         type='range'

@@ -1,8 +1,11 @@
+import './TopLeftRadius.css'
+
 const TopLeftRadius = ({ isRadiusChecked, borderRange, onHandlerBorderChange }) => {
   return (
     <div>
       <label htmlFor='topLeftRadius'>
         <h3>Top left radius:</h3>
+        <p>{`${borderRange.topLeftRadius}px`}</p>
       </label>
       <input
         disabled={isRadiusChecked}

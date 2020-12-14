@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './Nav.css'
+import logo from '../../asset/logo.png'
 
 const Nav = () => {
   return (
@@ -16,6 +17,7 @@ const Nav = () => {
           </h3>
         </li>
       </ul>
+      <img src={logo} alt='logo' />
     </nav>
   )
 }

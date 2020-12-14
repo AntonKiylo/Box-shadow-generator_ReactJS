@@ -11,7 +11,7 @@
   margin: 10px 0;
 }
 
-.border-range div:nth-child(6), .border-range div:nth-child(7) {
+.border-range div:nth-child(10), .border-range div:nth-child(11), .border-range div:nth-child(12) {
   display: flex;
   justify-content: space-between;
 }
@@ -21,6 +21,6 @@
   margin-top: 8px;
 }
 
-.border-range input[type=color] {
+.border-range input[type=color], .border-range select {
   width: 60px;
 }

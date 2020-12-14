@@ -1,8 +1,11 @@
+import './Width.css'
+
 const Width = ({ borderRange, onHandlerBorderChange }) => {
   return (
     <div>
       <label htmlFor='width'>
         <h3>Width:</h3>
+        <p>{`${borderRange.width}px`}</p>
       </label>
       <input
         type='range'

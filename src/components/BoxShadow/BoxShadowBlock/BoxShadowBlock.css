@@ -11,7 +11,7 @@
   margin: 10px 0;
 }
 
-.box-shadow-range div:nth-child(6), .box-shadow-range div:nth-child(7), .box-shadow-range div:nth-child(8) {
+.box-shadow-range div:nth-child(7), .box-shadow-range div:nth-child(9), .box-shadow-range div:nth-child(10) {
   display: flex;
   justify-content: space-between;
   align-items: center;

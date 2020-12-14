@@ -2,6 +2,7 @@
   background-color: #c2deff;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .navigation ul {
@@ -23,4 +24,9 @@
 .navigation ul li a:active {
   transform: scale(.9);
   display: block;
+}
+
+.navigation img {
+  width: 190px;
+  margin-right: 10px;
 }

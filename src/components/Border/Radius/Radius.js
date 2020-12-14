@@ -1,3 +1,5 @@
+import './Radius.css'
+
 const Radius = ({ isRadiusChecked, setIsRadiusChecked, borderRange, onHandlerBorderChange }) => {
   const setCheck = () => {
     setIsRadiusChecked(!isRadiusChecked)
@@ -7,8 +9,8 @@ const Radius = ({ isRadiusChecked, setIsRadiusChecked, borderRange, onHandlerBor
     <div>
       <label htmlFor='radius'>
         <h3>Radius (all borders):</h3>
+        <input type='checkbox' checked={isRadiusChecked} onChange={setCheck} />
       </label>
-      <input type='checkbox' checked={isRadiusChecked} onChange={setCheck} />
       <input
         disabled={!isRadiusChecked}
         type='range'

@@ -1,8 +1,11 @@
+import './Blur.css'
+
 const Blur = ({ shadowRange, onHandlerChange }) => {
   return (
     <div>
-      <label htmlFor='Blur'>
+      <label htmlFor='blur'>
         <h3>Blur:</h3>
+        <p>{`${shadowRange.blur}px`}</p>
       </label>
       <input
         type='range'

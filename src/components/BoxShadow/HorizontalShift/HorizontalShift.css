@@ -1,0 +1,5 @@
+label[for='horizontalShift'] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

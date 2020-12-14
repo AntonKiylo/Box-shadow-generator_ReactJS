@@ -1,8 +1,11 @@
+import './BottomLeftRadius.css'
+
 const BottomLeftRadius = ({ isRadiusChecked, borderRange, onHandlerBorderChange }) => {
   return (
     <div>
       <label htmlFor='bottomLeftRadius'>
         <h3>Bottom left radius:</h3>
+        <p>{`${borderRange.bottomLeftRadius}px`}</p>
       </label>
       <input
         disabled={isRadiusChecked}

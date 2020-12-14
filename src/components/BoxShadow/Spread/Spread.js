@@ -1,8 +1,11 @@
+import './Spread.css'
+
 const Spread = ({ shadowRange, onHandlerChange }) => {
   return (
     <div>
       <label htmlFor='spread'>
         <h3>Spread:</h3>
+        <p>{`${shadowRange.spread}px`}</p>
       </label>
       <input
         type='range'
