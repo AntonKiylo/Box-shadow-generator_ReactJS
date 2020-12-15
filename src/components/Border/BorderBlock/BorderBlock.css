@@ -7,6 +7,10 @@
   padding-left: 20px;
 }
 
+.border-range input {
+  cursor: pointer;
+}
+
 .border-range div {
   margin: 10px 0;
 }
