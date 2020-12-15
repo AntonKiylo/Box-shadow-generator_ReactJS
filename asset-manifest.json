@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Box-shadow-generator_ReactJS/static/css/main.eec070aa.chunk.css",
+    "main.js": "/Box-shadow-generator_ReactJS/static/js/main.42832d5d.chunk.js",
+    "main.js.map": "/Box-shadow-generator_ReactJS/static/js/main.42832d5d.chunk.js.map",
+    "runtime-main.js": "/Box-shadow-generator_ReactJS/static/js/runtime-main.8f9d343f.js",
+    "runtime-main.js.map": "/Box-shadow-generator_ReactJS/static/js/runtime-main.8f9d343f.js.map",
+    "static/js/2.060ad349.chunk.js": "/Box-shadow-generator_ReactJS/static/js/2.060ad349.chunk.js",
+    "static/js/2.060ad349.chunk.js.map": "/Box-shadow-generator_ReactJS/static/js/2.060ad349.chunk.js.map",
+    "index.html": "/Box-shadow-generator_ReactJS/index.html",
+    "static/css/main.eec070aa.chunk.css.map": "/Box-shadow-generator_ReactJS/static/css/main.eec070aa.chunk.css.map",
+    "static/js/2.060ad349.chunk.js.LICENSE.txt": "/Box-shadow-generator_ReactJS/static/js/2.060ad349.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f9d343f.js",
+    "static/js/2.060ad349.chunk.js",
+    "static/css/main.eec070aa.chunk.css",
+    "static/js/main.42832d5d.chunk.js"
+  ]
+}
